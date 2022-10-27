@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Carousel</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="amber-text center"> Carousel</h1>
+        </div>
+
+<!--Caruosel-->
+<div class="carousel">
+    <a href="" class="carousel-item">
+      <img src="images3.webp" alt="">
+    </a>
+    <a href="" class="carousel-item">
+      <img src="image1.png" alt="">
+    </a>
+    <a href="" class="carousel-item">
+      <img src="image2.jpeg" alt="">
+    </a>
+    </div>
+<br>
+<!--Full width slider-->
+<div class="carousel carousel-slider">
+  <a href="one" class="carousel-item">
+    <img src="tulip.jpg" alt="">
+  </a>
+  <a href="two" class="carousel-item">
+    <img src="image1.png" alt="">
+  </a>
+  <a href="three" class="carousel-item">
+    <img src="image2.jpeg" alt="">
+  </a>
+</div>
+<br>
+<!--Content Slider-->
+<div class=" carousel carousel-slider center">
+  <div class="carousel-fixed-item center">
+<a href="" class="btn waves-effect yellow green-text">Button</a>
+  </div>
+<div class="carousel-item pink white-text">
+  <h2>Panel</h2>
+  <p class="white-text">This is your first panel</p>
+</div>
+<div class="carousel-item blue white-text">
+  <h2>Second Panel</h2>
+  </div>
+  <div class="carousel-item green white-text">
+    <h2>Third Panel</h2>
+    </div>
+
+</div>
+</div>
+
+
+
+  
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      //init floating action button
+      $('.fixed-action-btn').floatingActionButton();
+      $('.carousel').carousel();
+  
+      // init full width slider 
+      $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+    });
+    });
+   </script>
+
+</body>
+
+</html>
