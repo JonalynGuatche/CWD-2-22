@@ -216,7 +216,7 @@
       <span class="card-title">Quick Todos</span>
       <form id="todo-form">
         <div class="input-field">
-          <input type="text" id="todo" placeholder="Add to do...">
+          <input type="text" id="todo" placeholder="Add Todo...">
         </div>
       </form>
       <ul class="collection todos">
@@ -240,6 +240,7 @@
 </div>
   </div>
 </section>
+
 <!--Floating Action Button-->
 <div class="fixed-action-btn toolbar">
   <a class="btn-floating btn-large red">
@@ -334,7 +335,7 @@
     $('.fixed-action-btn').floatingActionButton({
     toolbarEnabled: true
   });
-
+  
     //Counter
     $('.count') .each(function(){
       $(this).prop('Counter',0) .animate({

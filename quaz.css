@@ -1,0 +1,42 @@
+.main-header {
+background: url(tulip.jpg);
+min-height: 600px;
+background-size: cover;
+background-position:center;
+color: yellow
+}
+
+.showcase{
+padding-top:60px;
+}
+
+.section-developers{
+position: relative;
+background: url(tulip2.jfif);
+background-size:cover;
+background-position:center;
+min-height:160px;
+}
+
+.section-podcast{
+position: relative;
+background: url(tulips.jfif);
+background-size:cover;
+min-height:100px;
+}
+
+
+.primary-overlay{
+background: transparent;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+.main-header-signup{
+ background: url(tulip.jpg);
+ min-height: 600px;
+background-size: cover;
+background-position:center;
+}

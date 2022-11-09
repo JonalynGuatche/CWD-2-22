@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>forms in</title>
+</head>
+<body>
+    <form action="https://mail.google.com/mail/u/0/#inbox"        
+        method="POST"
+        onsubmit="runCode(event)">
+            <div class="input-field">
+              <input type="text" id="first_name" required>
+              <label for="first_name">First Name 
+              </label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="last_name"required>
+              <label for="last_name">Last Name
+              </label>
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" required>
+              <label for="email">Email 
+              </label>
+            </div>
+            <div class="input-field">
+              <input type="number" id="contact#"required>
+              <label for="contact#">Contact#
+              </label>
+             </div>
+             <div class="input-field">
+              <input type="text" id="message"required>
+              <label for="message">Message</label>
+            </div>
+            <div class="input-field">
+              <select name="" id="role">
+                <option value="" disabled selected>Select Services Offer</option>
+                <option value="design">Design</option>
+                <option value="cost-estimates">Cost Estimates</option>
+                <option value="consultation" >Consultation</option>
+                <option value="construction" >Construction</option>
+                <option value="other">All</option>
+                <label for="role">Services Offer</label>
+              </select>
+             
+            </div>
+            <input type="submit" id="submit" value="submit" class="btn btn-large yellow green-text btn-extend">
+        </form>
+  
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+     $(document).ready(function(){
+    $('select').formSelect();
+</script>
+</body>
+</html>
